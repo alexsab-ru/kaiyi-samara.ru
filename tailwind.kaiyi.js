@@ -20,6 +20,12 @@ export const theme = {
         500: "#d2251a",
         600: "#9f1c13",
       }, // в основном используется 400 и 500
+      vk: '#4B76A8',
+      ok: '#F7931D',
+      fb: '#3C5A99',
+      youtube: '#FF0018',
+      tiktok: '#000000',
+      telegram: '#2FACE1',
     },
     screens: {
       'xs': {'max': '430px'},
