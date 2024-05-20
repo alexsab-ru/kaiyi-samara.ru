@@ -10,13 +10,12 @@ module.exports = {
 			colors: {
 				...baseConfig.theme.extend.colors,
 				accent: {
-					400: "#f82b1e",
-					500: "#d2251a",
-					600: "#9f1c13",
+					400: "#000000",
+					500: "#000000",
 				},
 			},
 			fontFamily: {
-				...baseConfig.theme.extend.fontFamily
+				'sans': ['InfinitiBrand', ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
